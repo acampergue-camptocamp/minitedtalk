@@ -1,0 +1,22 @@
+site:
+  title: title of my doc
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://github.com/acampergue-camptocamp/minitedtalk
+  start_page: my_doc::index.adoc
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    edit_url: false
+    start_path: docs
+ui:
+  bundle:
+    # Use the default Antora UI
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files:
+  # Special setup to disable jekyll from github which messes up with the Theme of the resulting website
+  - path: ui.yml
+    contents: |
+      static_files: [ .nojekyll ]
+  - path: .nojekyll

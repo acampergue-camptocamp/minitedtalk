@@ -1,0 +1,10 @@
+= Document's title (Level 0)
+Author Name <author.name@camptocamp.com>
+:description: This is a description.
+:keywords: antora, asciidoc
+:sectanchors:
+:url-repo: https://github.com/acampergue-camptocamp/minitedtalk
+
+{url-repo}[This repository] contains the my test code for this Antora's Hands-on.
+
+video::BAJ8F7yQz64[youtube]
