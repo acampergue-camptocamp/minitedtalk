@@ -1,1 +1,2 @@
 * xref:index.adoc[Introduction]
+* xref:additional_module:additional_page.adoc[Additional Page]

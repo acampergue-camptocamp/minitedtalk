@@ -1,0 +1,8 @@
+= Additional Page Title
+
+Below this text, we'll display an image of Antora logo which will contain a hyperlink to Antora's gitlab
+
+image::antora.png[link=\"https://gitlab.com/antora\",150,250]
+
+include::additional_module:partial$partial_page.adoc[]
+

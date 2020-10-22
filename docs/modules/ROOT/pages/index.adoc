@@ -8,3 +8,6 @@ Author Name <author.name@camptocamp.com>
 {url-repo}[This repository] contains the my test code for this Antora's Hands-on.
 
 video::BAJ8F7yQz64[youtube]
+
+include::additional_module:partial$partial_page.adoc[]
+
